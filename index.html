@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="Task-List">
+            <h1 class="Task-List-title">JavaScript Task List</h1>
+            <div class="task-container">
+                <!-- ------------- task 1 ---------------  -->
+                <div class="task-4">
+                    <h1>task 1</h1>
+                    <input id="task1-input" placeholder="Type anything" type="text"><br>
+                    <button class="task-btn" id="task-btn">Check Type</button>
+                    <div id="task1-output"></div>
+                </div>
+                <!-- -------------- task 4 ------------------  -->
+                <div class="task-4">
+                    <h1>task 4</h1>
+                    <input type="text" id="abbreviated-text" placeholder="type abbreviated form"><br>
+                    <button class="task-btn" onclick="sortText()">Convert Sort-form</button>
+                    <div class="abbreviated-result"></div>
+                </div>
+                <!-- ------------------- tsak 5 -----------------  -->
+                <div class="task-5 task-4">
+                    <h1>task 5</h1>
+                    <input type="email" id="email-5" placeholder="Email"> <br>
+                    <button class="task-btn" onclick="protectEmail()">Protect email</button>
+                    <div class="email-result"></div>
+                </div>
+                <!-- --------------------- task 6 ------------------- -->
+                <div class="task-4">
+                    <h1>task 6</h1>
+                    <input id="task-6-input" type="text" placeholder="parameterize"><br>
+                    <button class="task-btn" onclick="parameterize()">parameterize </button>
+                    <div class="parameterize-res"></div>
+                </div>
+                <!-- ---------------- task 7 -------------  -->
+                <div class="task-4">
+                    <h1>task 7</h1>
+                    <input type="text" placeholder="capitalize" id="CP1-input"> <br>
+                    <button class="task-btn" onclick="capitalizeF()">capitalize first</button>
+                    <div class="task7-res"></div>
+                </div>
+
+                <!-- --------------------- task 8 -----------------------  -->
+                <div class="task-4">
+                    <h1>task 8</h1>
+                    <input type="text" id="task-8-int" placeholder="capitalize all"> <br>
+                    <button class="task-btn" onclick="capitalizeAll()">capitalize All</button>
+                    <div class="task8-res"></div>
+                </div>
+
+                <!-- --------------------- task 9 -------------  -->
+                <div class="task-9">
+                    <h1>task 9</h1>
+                    <input type="text" id="task-9-int" placeholder="UPPER & LOWER"> <br>
+                    <button class="task-btn" onclick="UpperLover()">UPPER & LOWER</button>
+                    <div class="task9-res"></div>
+                </div>
+
+                 <!-- --------------------- task 10 -------------  -->
+                 <div class="task-9">
+                    <h1>task 10</h1>
+                    <input type="text" id="task-10-int" placeholder="CamelCase"> <br>
+                    <button class="task-btn" onclick="camelCase()">UPPER & LOWER</button>
+                    <div class="task10-res"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
