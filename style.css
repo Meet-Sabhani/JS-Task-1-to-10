@@ -92,3 +92,10 @@ main {
     width: 90%;
   }
 }
+
+
+.second-page{
+  height: 40vh;
+  text-align: center;
+  padding: 2rem 0;
+}
